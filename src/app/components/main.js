@@ -1,7 +1,7 @@
 //import $a from 'antipode';
 import $a from './$a';
 import tmp from './main.tpl.html';
-import scss from './main.scss';
+import scss from './main.css';
 
 new $a.Component({
 	name: 'main',
