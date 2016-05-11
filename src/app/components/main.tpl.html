@@ -1,3 +1,29 @@
+<style>
+	.bg {
+		background-color: #C8C8C8;
+	}
+	button {
+		border-radius: 10px;
+		border-width: 0px;
+		outline:none;
+		background-color: #C3C3C7;
+		margin: 10px;
+	}
+	button:active {
+		background-color: #A7A7BB;
+	}
+</style>
+
 <div class="main-page">
-	hello {{world}}
+	<div class="bg" style="display: inline-block; width: 200px; height: 100%; float: left;">
+		list
+		<smplist  name="sampleList"></smplist>
+	</div>
+	<div style="display: inline-block; float: left; font-size: 10px; width: 200px;">
+		<button on-click="deleteAll">Delete All</button>
+		<button on-click="keepVisible">Keep only Visible</button>
+		<button on-click="removePrev">Remove some previous records</button>
+		<button on-click="removeNext">Remove some next records</button>
+
+	</div>
 </div>
